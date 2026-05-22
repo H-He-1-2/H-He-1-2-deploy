@@ -3,6 +3,8 @@ locale = 'zh-cn'
 title = 'H-He-1-2'
 theme = 'relearn'
 
+pluralizeListTitles = false
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
