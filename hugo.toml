@@ -21,6 +21,7 @@ pluralizeListTitles = false
   mathProvider = "katex"
   mermaid = true
   editURL = ""
+  enableComments = true
 
 [params.relearn]
   collapsibleMenu = true
