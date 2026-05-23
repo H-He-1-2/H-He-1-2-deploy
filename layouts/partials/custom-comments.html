@@ -1,6 +1,6 @@
-{{- /* 只在普通内容页显示评论，排除首页、分类页等 */ -}}
-{{- if and (not .IsHome) (not .IsSection) (not .IsTaxonomy) .IsPage -}}
-<div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--INTERNAL-MAIN-TITLES-H2-color, #ccc);">
+{{- /* 只在普通内容页显示评论，自动排除首页、列表页、分类页以及搜索页 */ -}}
+{{- if and .IsPage (ne .Params.noComments true) -}}
+<div style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--INTERNAL-MAIN-TITLES-H2-color, #ccc);">
     <h2>💬 评论</h2>
     <script src="https://giscus.app/client.js"
             data-repo="H-He-1-2/H-He-1-2-deploy"
