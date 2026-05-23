@@ -1,6 +1,24 @@
-{{- /* 只在普通内容页显示评论，自动排除首页、列表页、分类页以及搜索页 */ -}}
+{{- /* 只在普通内容页显示评论 */ -}}
 {{- if and .IsPage (ne .Params.noComments true) -}}
-<div style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--INTERNAL-MAIN-TITLES-H2-color, #ccc);">
+<style>
+  .giscus-wrapper {
+    /* 限制最大宽度，防止撑满全屏。你可以根据你正文的实际宽度调整这个数值（比如 800px 或 1000px） */
+    max-width: 1000px;
+    width: 100%;
+    margin: 3rem auto; /* 水平居中，并留出上下边距 */
+    padding: 0 1.5rem; /* 防止在手机端贴边 */
+    box-sizing: border-box;
+  }
+  .giscus-wrapper h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 1px solid var(--INTERNAL-MAIN-TITLES-H2-color, #ccc);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+</style>
+
+<div class="giscus-wrapper">
     <h2>💬 评论</h2>
     <script src="https://giscus.app/client.js"
             data-repo="H-He-1-2/H-He-1-2-deploy"
