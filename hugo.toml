@@ -22,6 +22,9 @@ pluralizeListTitles = false
   mermaid = true
   editURL = ""
   enableComments = true
+  library = "mathjax"
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML"
+  mathjaxExtensions = ["mhchem.js"]
 
 [params.relearn]
   collapsibleMenu = true
