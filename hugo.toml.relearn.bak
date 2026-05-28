@@ -1,0 +1,32 @@
+baseURL = 'https://H-He-1-2.github.io/'
+locale = 'zh-cn'
+title = 'H-He-1-2'
+theme = 'hugo-theme-stack'
+
+pluralizeListTitles = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = false
+    tabWidth = 4
+
+[params]
+  math = true
+  mathProvider = "katex"
+  mermaid = true
+  editURL = ""
+  enableComments = true
+  library = "mathjax"
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML"
+  mathjaxExtensions = ["mhchem.js"]
+
+[params.relearn]
+  collapsibleMenu = true
+  themeVariant = "auto"
+  disableGeneratorVersion = true

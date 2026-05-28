@@ -1,0 +1,43 @@
+[[main]]
+    identifier = "home"
+    name = "主页"
+    url = "/"
+    weight = 1
+
+    [main.params]
+        icon = "home"
+
+[[main]]
+    identifier = "physics"
+    name = "高中物理"
+    url = "/高中物理/"
+    weight = 2
+
+    [main.params]
+        icon = "infinity"
+
+[[main]]
+    identifier = "stories"
+    name = "抽象小故事"
+    url = "/抽象小故事/"
+    weight = 3
+
+    [main.params]
+        icon = "messages"
+
+[[main]]
+    identifier = "questions"
+    name = "一些interesting问题"
+    url = "/一些interesting问题/"
+    weight = 4
+
+    [main.params]
+        icon = "hash"
+
+[[social]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/H-He-1-2"
+
+    [social.params]
+        icon = "brand-github"

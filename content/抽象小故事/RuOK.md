@@ -2,6 +2,7 @@
 date = '2026-05-27T22:35:35+08:00'
 draft = false
 title = '合成虚构化合物 RuOK'
+categories = ['故事', '化学']
 +++
 ## 摘要
 

@@ -1,0 +1,14 @@
+baseURL = 'https://H-He-1-2.github.io/'
+locale = 'zh-cn'
+title = 'H-He-1-2'
+theme = 'hugo-theme-stack'
+defaultContentLanguage = 'zh-cn'
+hasCJKLanguage = true
+pluralizeListTitles = false
+
+[pagination]
+    pagerSize = 10
+
+[permalinks]
+    post = "/:section/:slug/"
+    page = "/:slug/"

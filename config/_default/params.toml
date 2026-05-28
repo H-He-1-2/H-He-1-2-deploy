@@ -1,0 +1,53 @@
+mainSections = ["高中物理", "抽象小故事", "一些interesting问题"]
+rssFullContent = true
+
+[footer]
+    since = 2026
+
+[sidebar]
+    compact = false
+    subtitle = "个人学习笔记·物理·故事·脑洞"
+    avatar = ""
+    emoji = "🧠"
+
+[article]
+    math = true
+    toc = true
+    readingTime = true
+
+    [article.list]
+        showTags = true
+
+    [article.license]
+        enabled = false
+
+[widgets]
+    homepage = [
+        { type = "search" },
+        { type = "archives", params = { limit = 5 } },
+        { type = "categories", params = { limit = 10 } },
+    ]
+    page = [{ type = "toc" }]
+
+[comments]
+    enabled = true
+    provider = "giscus"
+
+    [comments.giscus]
+        repo = "H-He-1-2/H-He-1-2-deploy"
+        repoID = "R_kgDOSlBNtQ"
+        category = "Announcements"
+        categoryID = "DIC_kwDOSlBNtc4C9rmI"
+        mapping = "pathname"
+        lightTheme = "light"
+        darkTheme = "dark_dimmed"
+        lang = "zh-CN"
+        strict = "0"
+        reactionsEnabled = "1"
+        emitMetadata = "0"
+        inputPosition = "bottom"
+        loading = "lazy"
+
+[colorScheme]
+    toggle = true
+    default = "auto"
