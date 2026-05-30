@@ -8,31 +8,58 @@
         icon = "home"
 
 [[main]]
-    identifier = "physics"
-    name = "高中物理"
-    url = "/高中物理/"
+    identifier = "categories"
+    name = "分类"
+    url = "/categories/"
     weight = 2
+
+    [main.params]
+        icon = "categories"
+
+[[main]]
+    identifier = "physics"
+    name = "物理"
+    url = "/categories/物理/"
+    weight = 3
 
     [main.params]
         icon = "infinity"
 
 [[main]]
+    identifier = "math"
+    name = "数学"
+    url = "/categories/数学/"
+    weight = 4
+
+    [main.params]
+        icon = "hash"
+
+[[main]]
     identifier = "stories"
-    name = "抽象小故事"
-    url = "/抽象小故事/"
-    weight = 3
+    name = "故事"
+    url = "/categories/故事/"
+    weight = 5
 
     [main.params]
         icon = "messages"
 
 [[main]]
-    identifier = "questions"
-    name = "一些interesting问题"
-    url = "/一些interesting问题/"
-    weight = 4
+    identifier = "chemistry"
+    name = "化学"
+    url = "/categories/化学/"
+    weight = 6
 
     [main.params]
-        icon = "hash"
+        icon = "tag"
+
+[[main]]
+    identifier = "questions"
+    name = "问题"
+    url = "/categories/问题/"
+    weight = 7
+
+    [main.params]
+        icon = "search"
 
 [[social]]
     identifier = "github"

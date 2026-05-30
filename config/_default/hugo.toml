@@ -10,5 +10,5 @@ pluralizeListTitles = false
     pagerSize = 10
 
 [permalinks]
-    post = "/:section/:slug/"
+    post = "/p/:slug/"
     page = "/:slug/"

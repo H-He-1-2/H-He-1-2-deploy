@@ -1,4 +1,4 @@
-mainSections = ["高中物理", "抽象小故事", "一些interesting问题"]
+mainSections = ["post"]
 rssFullContent = true
 
 [footer]
@@ -27,7 +27,10 @@ rssFullContent = true
         { type = "archives", params = { limit = 5 } },
         { type = "categories", params = { limit = 10 } },
     ]
-    page = [{ type = "toc" }]
+    page = [
+        { type = "toc" },
+        { type = "categories", params = { limit = 10 } },
+    ]
 
 [comments]
     enabled = true
